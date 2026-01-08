@@ -1,134 +1,130 @@
-🛒 BagsStore - A Simple E-Commerce Store
+# 🛒 BagsStore - A Simple E-Commerce Store
 
-Full Stack Web Application
+A full-stack **E-Commerce Web Application** built using **HTML, CSS, JavaScript** for the frontend and **Node.js with Express.js** for the backend.  
+This project is created as part of the **CodeAlpha Full Stack Development Internship**.
 
-A complete Full Stack E-Commerce Website built using HTML, CSS, JavaScript for the frontend and Node.js with Express.js for the backend.
-This project was developed as part of the CodeAlpha Full Stack Development Internship.
+---
 
-It allows users to browse products, add them to cart, place orders, and manage accounts with database support.
+## 📌 Project Overview
 
-🚀 Features
-👤 User System
+This application allows users to browse products, add them to a shopping cart, place orders, and manage accounts.  
+All data is stored in a database and handled securely through a backend server.
 
-User Registration
+---
 
-User Login
+## 🚀 Features
 
-Secure authentication using middleware
+### 👤 User System
+- User Registration
+- User Login
+- Session-based Authentication
 
-🛍️ Shopping Features
+### 🛍️ Shopping Features
+- View product listings
+- Product details page
+- Add products to cart
+- Update cart quantity
+- Remove products from cart
 
-Product listing
+### 📦 Order Processing
+- Checkout system
+- Place orders
+- Store order history
 
-Product detail view
+### 🛠️ Admin Features
+- Add new products
+- Edit products
+- Delete products
+- View customer orders
 
-Add to cart
+---
 
-Remove from cart
+## 🖥️ Tech Stack
 
-Update quantities
+### Frontend
+- HTML
+- CSS
+- JavaScript
 
-📦 Order Processing
+### Backend
+- Node.js
+- Express.js
 
-Checkout system
+### Database
+- MongoDB (using Mongoose)
 
-Order placement
+---
 
-Order storage in database
+## 📂 Project Structure
 
-🛠️ Admin Features
-
-Add products
-
-Edit products
-
-Delete products
-
-Manage orders
-
-🖥️ Tech Stack
-Frontend
-
-HTML
-
-CSS
-
-JavaScript
-
-Backend
-
-Node.js
-
-Express.js
-
-Database
-
-MongoDB (using Mongoose)
-
-📂 Project Folder Structure
+```
 CODEALPHA_SIMPLE_ECOMMERCE
-
-├── components    → Reusable UI components
-├── config        → Database & environment configuration
-├── middleware    → Authentication & request handling
-├── models        → MongoDB schemas (Users, Products, Orders)
-├── public        → Frontend files (CSS, JS, Images)
-├── routes        → Express routes (auth, products, cart, orders)
-├── seedDB        → Sample data for database
-├── views         → EJS / HTML templates
+├── components
+├── config
+├── middleware
+├── models
+├── public
+├── routes
+├── seedDB
+├── views
 │
-├── app.js        → Main server file
-├── package.json → Project dependencies
-├── README.md    → Project documentation
-└── screenshot.png → Project preview
+├── app.js
+├── package.json
+├── README.md
+└── screenshot.png
+```
 
-🗄️ Database
+---
 
-This project uses MongoDB to store:
+## 🗄️ Database
 
-Users
+The project uses **MongoDB** to store:
+- Users
+- Products
+- Shopping cart data
+- Orders  
 
-Products
+Mongoose is used to manage schemas and database operations.
 
-Shopping Cart
+---
 
-Orders
+## 🔐 Authentication
 
-MongoDB is connected using Mongoose, which helps in managing schemas and database operations easily.
+- Secure login system  
+- Password encryption  
+- Protected routes using middleware  
 
-🔐 Authentication & Security
+Only logged-in users can access cart and order features.
 
-Session-based login system
+---
 
-Password hashing
+## 🎯 Internship Task Fulfillment
 
-Protected routes using middleware
+This project fulfills **Task 1: Simple E-commerce Store** of CodeAlpha:
 
-Only logged-in users can:
+- ✔ Product listings  
+- ✔ Shopping cart  
+- ✔ Product details page  
+- ✔ Order processing  
+- ✔ User registration & login  
+- ✔ Database integration  
 
-Add items to cart
+---
 
-Place orders
+## 📸 Screenshot
 
-🎯 CodeAlpha Internship Task Fulfilled
+![Project Preview](screenshot.png)
 
-This project satisfies Task 1: Simple E-commerce Store:
+---
 
-✔ Product Listings
-✔ Shopping Cart
-✔ Product Details Page
-✔ Order Processing
-✔ User Registration & Login
-✔ Database for users, products, and orders
+## 🧑‍💻 Developer
 
-📸 Project Preview
+**Name:** Nagaraj Naik  
+**Internship:** CodeAlpha Full Stack Development  
+**Task:** Simple E-Commerce Store  
 
-🧑‍💻 Developer
+---
 
-Name: Nagaraj Naik
-Internship: CodeAlpha Full Stack Development
-Project: Simple E-Commerce Store
+## 📜 License
 
-📜 License
-
-This project is created for educational and internship purposes only.
+This project is created for educational and internship purposes.
